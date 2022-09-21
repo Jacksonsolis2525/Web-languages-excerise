@@ -1,0 +1,9 @@
+.content{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+}
+* {background-color: aquamarine;}
+#main-title{
+    text-align: center;
+
+}

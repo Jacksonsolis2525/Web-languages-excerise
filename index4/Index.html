@@ -1,0 +1,16 @@
+<!-- This creates the box and the text holder within it--> 
+<input id="name-input" type="text" placeholder="Enter your name" />
+<!--This line creates the button and has it labled as click me-->
+<button id="my-button">Click Me</button>
+<!-- Lines 8-9 of the script take in the users input once they click the line-->
+<!--Lines 11 take in the user input once clicked then 12 and 13 as long as its not blank it will return hello plus the value-->
+<script>
+  var myButton = document.querySelector('#my-button');
+  var nameInput = document.querySelector('#name-input');
+
+  myButton.addEventListener('click', function () {
+    if (nameInput.value !== '') {
+      alert('Hello ' + nameInput.value);
+    }
+  });
+</script>
